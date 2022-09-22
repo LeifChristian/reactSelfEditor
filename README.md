@@ -1,7 +1,24 @@
+# React Self Editor
+
+If I can build a fullstack React app with file system access,
+
+Why can't I build a React app, that can edit itself? 
+
+LOL. I can of course. {:
+
+For my next trick, Npm install root directory and client. 
+
+Run in dev mode, and edit, create or delete react components from the front end. Save them and watch your changes live in real time.
+
+Obviously if it you break something, you have to go in to the components via text editor to fix. LOL.
+
+---------------
+
+Below is info from my React File Manager Build. So far this is the same build with a different path.
+
+------------------------
 
 Who said React can't access a computer's file system? With Node/Express it can.
-
-# React File Manager/Text Editor
 
 Create, Read, Update and Delete files with React and Express.
 
