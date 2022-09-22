@@ -47,10 +47,11 @@ Clicking on a file will open an editor where you can:
  3. Delete a file
 
  The + button creates a new file.
+ ** creates a new directory. currently just one directory of depth, until I get bored and fix it :)
  
  That's pretty much it! 
 
- FIRST:
+FIRST:
 
 create a file named ".env" in the client directory.
 
@@ -62,7 +63,7 @@ This is a simple hard-coded password protection, useful for remote deployment.
 
 !!!For remote deployment!!! 
 
-In client/src/text.js, replace the server ip address with your own server ip in ALL axios requests:    
+In client/src/fileManager.js, replace the server ip address with your own server ip in ALL axios requests:    
 axios("http://myVeryOwnServer:5000/createFile/", ...)
 
 TO RUN: 
