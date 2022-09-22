@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  margin-top: 2%;
+  
+}
+
+#title {
+  margin-bottom: 1%;
+}
+
+#modalText textarea {
+  margin-top: 3%;
+  text-align: center;
+  color: lightgreen;
+  background-color: black;
+  height: 60vh;
+  width: 85vw;
+  border-radius: 20px;
+}
+
+#modalButtons {
+  text-align: center;
+  
+}
+
+#modalButtons button {
+margin: 2px;
+font-weight: 600;
+font-size: large;
+margin-top: 10px;
+border: solid 1px;
+border-radius: .2em;
+}
+
+#ok {
+  color: red
+}
+
+html {background-color: black; color: lightgreen; font-weight: 600; font-size: 20px;}
+
+button{border-radius: .8em; background-color: black; color: lightgray}
+
+
